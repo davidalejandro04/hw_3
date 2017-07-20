@@ -74,5 +74,5 @@ def update(i):
 	return plots, text
 
 animacion = animation.FuncAnimation(fig, update, len(a1))
-#animacion.save("Bono-Planetas.mp4", fps = len(a2)/20,extra_args=['-vcodec', 'libx264'])
+animacion.save("Bono-Planetas.mp4", fps = len(a2)/20,extra_args=['-vcodec', 'libx264'])
 
