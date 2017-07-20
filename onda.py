@@ -92,5 +92,5 @@ def animate(i):
 	p.set_array((matriz[i]))
 	return p,
 animacion = animation.FuncAnimation(fig, animate, np.arange(1,len(matriz)),interval=5, blit=False)
-#animacion.save('Onda.mp4',fps=30,extra_args=['-vcodec', 'libx264'])
+animacion.save('Onda.mp4',fps=30,extra_args=['-vcodec', 'libx264'])
 
